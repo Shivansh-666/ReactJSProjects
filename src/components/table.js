@@ -31,7 +31,7 @@ function Table() {
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/,
         "Invalid password format"
       ),
-    image: Yup.mixed().required("Image is required"),
+    image: Yup.mixed().required("Image is required!"),
   });
 
   const onSubmit = (values) => {
